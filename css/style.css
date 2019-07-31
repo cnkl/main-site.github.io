@@ -24,7 +24,7 @@ body {
   animation-name: items-odd;
 }
 .text::after {
-  content: "v";
+  content: "V";
   animation-name: items-even;
   animation-delay: 1.5s;
 }
@@ -79,10 +79,10 @@ body {
     opacity: 0;
   }
   0% {
-    content: "v";
+    content: "V";
   }
   24.9999% {
-    content: "v";
+    content: "V";
   }
   25% {
     content: "N";
@@ -171,9 +171,9 @@ body {
     content: "I";
   }
   75% {
-    content: "v";
+    content: "V";
   }
   99.9999% {
-    content: "v";
+    content: "V";
   }
 }
