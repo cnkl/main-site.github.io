@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-      <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>v1nk.io</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">	
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="text"></div>
-<!-- SVG GOOEY FILTER-->
-<svg>
-  <filter id="gooey">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur"></feGaussianBlur>
-    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 28 -8" result="gooey"></feColorMatrix>
-    <feComposite in="SourceGraphic" in2="gooey" operator="atop"></feComposite>
-  </filter>
-</svg>
-</body>
+<div class="container">
+  <div class="block first">
+    <p class="citation">"Die Grenzen meiner <i>Sprache</i> bedeuten die Grenzen meiner Welt."</p>
+    <p class="author">- Ludwig Wittgenstein -</p>
+    <p class="footer"><a href="https://vink-io.com">Vink-io UG</a></p>
+  </div>
+</div>
 </html>
